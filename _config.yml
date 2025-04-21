@@ -22,14 +22,15 @@ markdown: kramdown
 theme: # al-folio needs to be installed as a gem or remote theme
 remote_theme: alshedivat/al-folio # Using remote theme for easier setup
 
-# SASS/SCSS settings
+# Sass/SCSS
 sass:
-  style: compressed
   sass_dir: _sass
+  style: compressed
   load_paths:
     - _sass
     - assets/css
-    - vendor/bundle/ruby/*/gems/*
+    - vendor/bundle/ruby/*/gems/*/lib/assets/stylesheets
+    - vendor/bundle/ruby/*/gems/*/assets/stylesheets
 
 plugins:
   - jekyll-feed
