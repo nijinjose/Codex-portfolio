@@ -1,28 +1,37 @@
 ---
 layout: page
 title: Document OCR Processor
-date: 2024-04-01 # Assigning a recent date, adjust if needed
-description: Extracts text from document images using Google Gemini, preserving formatting.
-img: # Optional: Path to a representative image, e.g., /assets/img/ocr_processor.png
-importance: 1 # Higher number means more important
+date: 2024-04-01
+description: Getting LLMs to extract text from documents while preserving formatting
+img: # Optional: Path to a representative image
+importance: 1
 category: personal
-# github: nijinjose/repo-name # Optional: Add link if you have a public repo
+github: nijinjose/document-ocr-processor
 ---
 
-## Project Overview
+## The Problem
 
-Developed a Python application that leverages Google's Gemini 2.0 Flash LLM to accurately extract text from document images.
+If you've ever tried to extract text from images of documents, you know the pain. Traditional OCR tends to mess up formatting, tables get destroyed, and columns become a jumbled mess. I needed something that could extract text while keeping the content structured like the original.
 
-Key features include:
-*   Command-line interface (CLI) for ease of use.
-*   Batch processing capability for multiple images.
-*   Preservation of basic document formatting during text extraction.
-*   Progress tracking for batch jobs.
-*   Robust error handling.
-*   Options for generating individual text files per image or a single consolidated output file.
+## My Solution
 
-## Technologies Used
+I built a Python tool that leverages Google's Gemini 2.0 Flash LLM to handle document image OCR tasks. Unlike traditional OCR, Gemini can actually "see" the document structure and format the extracted text accordingly.
 
-*   Python
-*   Google Gemini API (Flash 2.0 LLM)
-*   Standard Python libraries for file handling and CLI arguments
+What makes this tool particularly useful is its batch processing capabilities - you can throw a folder of document images at it, and it will process them all while tracking progress. It's also reasonably smart about error handling, so if one image fails, it won't crash the entire batch job.
+
+## How It Works
+
+1. Images are processed one by one or in batches
+2. Each image is sent to Google's Gemini 2.0 Flash API
+3. The LLM "sees" the document and extracts text with formatting
+4. Results can be saved as individual files or consolidated into one document
+5. Progress is tracked throughout for longer batch jobs
+
+## The Tech
+
+- Python for application and CLI implementation
+- Google Gemini API (Flash 2.0 LLM) for intelligent document "understanding"
+- Command-line interface for easy batch processing
+- Progress tracking and error handling for reliability
+
+I found Gemini particularly good at preserving tables, columns, and document hierarchies - things that traditional OCR tools struggle with.
