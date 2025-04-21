@@ -1,0 +1,83 @@
+# Site settings
+# ------------- General Settings -------------
+title: Nijin Jose                       # Your name or company name
+name: Nijin Jose
+description: >-                      # Your site description
+  Data Scientist and Machine learning engineer with 3+ years of experience in developing, deploying,
+  and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions.
+  Passionate about advancing AI through research and practical applications.
+baseurl: "/Codex portfolio"                       # The subpath of your site, e.g. /blog. If hosted on GitHub Pages at username.github.io, keep this empty.
+url: "https://nijinjose.github.io"                         # The base hostname & protocol for your site, e.g. http://example.com. If hosted on GitHub Pages at username.github.io, set to https://username.github.io
+repository: nijinjose/Codex-portfolio    # Your GitHub repository for GitHub Pages, e.g. username/username.github.io
+
+# ------------ Profile & Social Links -------------
+email: nijinxose@gmail.com
+twitter_username: your_twitter_handle
+github_username:  nijinjose
+linkedin_username: nijinjose
+scholar_userid: your_google_scholar_id # Optional: Google Scholar ID
+
+# ------------ Build Settings -------------
+markdown: kramdown
+theme: # al-folio needs to be installed as a gem or remote theme
+remote_theme: alshedivat/al-folio # Using remote theme for easier setup
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-scholar # For managing publications
+  # - jekyll-remote-theme # Already implicitly used by `remote_theme`
+
+# ------------ Theme Settings (al-folio specific) -------------
+# See: https://github.com/alshedivat/al-folio/blob/master/_config.yml
+# for full configuration options.
+
+# General appearance
+appearance:
+  theme_toggle: true # Enable light/dark mode toggle
+  theme: light # Default theme: light, dark, auto
+
+# Navigation bar settings
+nav_pages:
+  - {title: 'Home', url: '/'}
+  - {title: 'Projects', url: '/projects/'}
+  - {title: 'Publications', url: '/publications/'}
+  - {title: 'CV', url: '/cv/'}
+  - {title: 'Blog', url: '/blog/'}
+
+# Footer settings
+year: 2024 # Copyright year
+
+# Publications settings
+scholar:
+  style: apa # Citation style, e.g., apa, mla, ieee
+  locale: en
+
+  sort_by: year # Order publications by year
+  order: descending
+
+  source: /_bibliography/papers.bib # Path to your BibTeX file
+  bibliography_template: bib # Template for displaying publications
+
+# Projects settings
+# Define projects in _projects/ or use a data file like _data/projects.yml
+# Example below assumes using markdown files in _projects/
+# projects:
+#   sort_by: date # date, importance, title
+#   sort_order: descending # ascending, descending
+#   # projects_page_title: Projects # Title for the projects page
+
+# Blog settings
+# blog_name: Blog # Name for the blog section
+# blog_description: My thoughts and insights
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE.txt
