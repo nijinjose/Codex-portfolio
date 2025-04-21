@@ -1,8 +1,7 @@
-git add .
-git commit -m "fix: Update CSS imports and layout to fix build errors"
-git push origin main---
-layout: default
-title: Home
+---
+layout: about
+title: About
+permanent: /
 ---
 
 <div class="row justify-content-center">
