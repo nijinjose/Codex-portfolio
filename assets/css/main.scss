@@ -74,3 +74,16 @@ $info-color: #17a2b8 !default;
     }
   }
 }
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom Styles */
+.company-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  {
+    /* Add your styles here */
+  }
+}
