@@ -6,7 +6,7 @@ permanent: /
 
 <div class="row justify-content-center">
     <div class="col-md-8 text-center">
-        <h1 class="mt-4">Nijin Jose</h1>
+        <h1 class="mt-4">NIJIN JOSE</h1>
         <p class="lead mb-5">Data Scientist & Machine Learning Engineer</p>
     </div>
 </div>
