@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-scholar", "~> 6.0" # For publications
   gem "jekyll-remote-theme", "~> 0.4.3" # Required for remote_theme
+  gem "jekyll-toc", "~> 0.18.0" # Required for table of contents
   # Add other plugins used by al-folio or your customizations
   # gem "jekyll-include-cache"
 end

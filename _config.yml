@@ -25,7 +25,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-scholar # For managing publications
-  # - jekyll-remote-theme # Already implicitly used by `remote_theme`
+  - jekyll-toc # For table of contents
+  - jekyll-remote-theme # Required for remote_theme
 
 # ------------ Theme Settings (al-folio specific) -------------
 # See: https://github.com/alshedivat/al-folio/blob/master/_config.yml
