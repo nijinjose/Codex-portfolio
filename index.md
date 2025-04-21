@@ -1,4 +1,6 @@
----
+git add .
+git commit -m "fix: Update CSS imports and layout to fix build errors"
+git push origin main---
 layout: default
 title: Home
 ---
@@ -6,14 +8,14 @@ title: Home
 <div class="row justify-content-center">
     <div class="col-md-8 text-center">
         <h1 class="mt-4">Nijin Jose</h1>
-        <p class="lead mb-5">Data Scientist & MLOps Engineer specializing in production-grade AI systems</p>
+        <p class="lead mb-5">Data Scientist & Machine Learning Engineer</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-12">
         <div class="alert alert-light">
-            <p>I build and deploy AI systems that deliver real business value. My work spans predictive modeling, MLOps, and cloud infrastructure — with a focus on creating models that actually work in real-world environments.</p>
+            <p>Data Scientist and Machine learning engineer with 3+ years of experience in developing, deploying, and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions. Passionate about advancing AI through research and practical applications. Seeking to contribute to advanced AI research and deployments at leading AI organizations.</p>
         </div>
     </div>
 </div>
@@ -29,10 +31,16 @@ title: Home
     </div>
     <div class="col-md-10">
         <h3>Senior Data Science and MLOps Analyst</h3>
-        <h4 class="text-muted">Markerstudy Group, London</h4>
-        <p class="text-muted">2023 - Present</p>
-        <p>Leading the development of production ML systems for risk prediction in insurance, using gradient boosting models and robust MLOps practices. Delivered <strong>120K GBP annual revenue uplift</strong> through a combination of model improvements and infrastructure modernization.</p>
-        <p>Built containerized ML services on Kubernetes (AKS) with automated CI/CD pipelines that handle testing, validation, and deployment across environments.</p>
+        <h4 class="text-muted">Markerstudy Group, London, UK</h4>
+        <p class="text-muted">Dec 2023 - Present</p>
+        <ul class="list-unstyled">
+            <li>• Engineered and productionized a gradient boosting model for risk prediction in motor insurance, implementing nested experiment tracking via MLflow and optimization with Optuna, resulting in 120K GBP annual revenue uplift.</li>
+            <li>• Implemented robust cross-validation methodology and specialized metrics for imbalanced classification, addressing bias in previous implementation and increasing model reliability by 15-20%.</li>
+            <li>• Designed and deployed containerized ML services on Kubernetes (AKS), creating CI/CD pipelines with Azure DevOps that automate testing, validation, and deployment across dev/UAT/prod environments.</li>
+            <li>• Developed systematic load testing frameworks to validate model serving performance under various traffic conditions, ensuring production stability and identifying optimization opportunities.</li>
+            <li>• Established MLOps best practice including automated testing, package management standards, model cards and rigorous version control transforming the team's development workflow and infrastructure management.</li>
+            <li>• Led cloud migration initiatives by leveraging critical Azure expertise, transitioning on-premises model deployment to a scalable, cloud-native architecture.</li>
+        </ul>
     </div>
 </div>
 
@@ -45,10 +53,17 @@ title: Home
     </div>
     <div class="col-md-10">
         <h3>Associate Consultant - Data Scientist and MLOps</h3>
-        <h4 class="text-muted">Capgemini Invent, Bangalore</h4>
-        <p class="text-muted">2022 - 2023</p>
-        <p>Worked on ML infrastructure and model monitoring for major clients including Michelin. Engineered image processing pipelines and implemented drift detection frameworks that improved data integrity by 50%.</p>
-        <p>Co-developed an enterprise-scale 'Build vs Buy' MLOps decision framework that guided Fortune 500 clients in tech stack selection.</p>
+        <h4 class="text-muted">Capgemini Invent, Bangalore, India</h4>
+        <p class="text-muted">July 2022 – July 2023</p>
+        <p class="text-muted">Client: Michelin, Capgemini</p>
+        <ul class="list-unstyled">
+            <li>• Engineered python module for tire-inspection ML pipeline to handle edge cases and developed an image deduplication framework that improved data integrity and review efficiency and time by 50%.</li>
+            <li>• Steered the adoption of Evidently and MLflow, integrating an open-source drift framework for data and model drift monitoring to enhance model resilience and ensure sustained performance.</li>
+            <li>• Orchestrated CI/CD pipelines, streamlined machine learning training, and implemented cloud resource optimizations, thereby facilitating the continuous integration of efficient machine learning models.</li>
+            <li>• Collaborated with Capgemini's leading MLOps consulting team to design ML infrastructure and governance solutions for global clients.</li>
+            <li>• Co-Developed an enterprise-scale 'Build vs Buy' MLOps decision framework (leveraging Gartner & Everest research) that guided Fortune 500 clients in tech stack selection.</li>
+            <li>• Collaborated on a tool to monitor carbon emissions of ML workflows, enabling data-driven optimizations for sustainable AI (aligned with organizational green goals).</li>
+        </ul>
     </div>
 </div>
 
@@ -61,9 +76,14 @@ title: Home
     </div>
     <div class="col-md-10">
         <h3>Associate Data Scientist</h3>
-        <h4 class="text-muted">ITTStar Consulting, Bangalore</h4>
-        <p class="text-muted">2021 - 2022</p>
-        <p>Built predictive models using AWS HealthLake for insurance applications and developed computer vision solutions with Amazon Rekognition (82% detection accuracy) for retail inventory management.</p>
+        <h4 class="text-muted">ITTStar Consulting LLC, Bangalore, India</h4>
+        <p class="text-muted">March 2021 – May 2022</p>
+        <ul class="list-unstyled">
+            <li>• Developed predictive models using AWS HealthLake (healthcare dataset) for insurance cost estimation, delivering a proof-of-concept that could improve premium pricing accuracy.</li>
+            <li>• Developed a computer vision solution with Amazon Rekognition, achieving 82% detection accuracy for retail inventory management.</li>
+            <li>• Built data pipelines and Curated intuitive dashboards (Amazon QuickSight, AWS Glue) to transform raw data into actionable insights, supporting key business decisions.</li>
+            <li>• Drove a 40% increase in analytics engagement among stakeholders through data-driven implementation strategies, optimizing user interaction with visualization tools.</li>
+        </ul>
     </div>
 </div>
 
@@ -76,66 +96,108 @@ title: Home
     </div>
     <div class="col-md-10">
         <h3>Engineering Intern</h3>
-        <h4 class="text-muted">Ethna Attributes Soft Technologies</h4>
-        <p class="text-muted">Jun 2021 - Aug 2021</p>
-        <p>Assisted senior engineers in software development tasks, focusing on backend development and database management for web applications.</p>
-        <p>Contributed to the development of a RESTful API using Python and Flask.</p>
-        <p>Participated in code reviews and debugging sessions.</p>
-        <p>Gained experience with Agile development methodologies.</p>
+        <h4 class="text-muted">Ethna Attributes Soft Technologies Pvt Ltd, Chennai, India</h4>
+        <p class="text-muted">Aug 2019 – June 2020</p>
+        <ul class="list-unstyled">
+            <li>• Developed SOTA Machine learning models for predictive maintenance (tool wear analysis), reducing waste and improving tool utilization. Research published and presented at International Conference.</li>
+        </ul>
     </div>
 </div>
 
 <hr class="my-5" />
 
-<div class="row">
-    <div class="col-md-6">
-        <h3 class="mb-4">ML & Data Science</h3>
-        <ul class="list-unstyled">
-            <li class="mb-2">🔹 scikit-learn, LightGBM, XGBoost</li>
-            <li class="mb-2">🔹 PyTorch, Computer Vision, NLP</li>
-            <li class="mb-2">🔹 Time Series Forecasting</li>
-            <li class="mb-2">🔹 Statistical Analysis, Feature Engineering</li>
-        </ul>
+<section id="skills" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Technical Skills</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Languages & ML Libraries</h5>
+            <p>Python (pandas, NumPy, SciPy), SQL; scikit-learn, LightGBM, XGBoost, PyTorch; familiar with TensorFlow/Keras</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Machine Learning & Deep Learning</h5>
+            <p>Predictive Modeling, Classification & Regression, Computer Vision (OpenCV, Rekognition), Time Series Forecasting, NLP (basic LLM and APIs integration and experience, Gemini Flash 2.0, xAI Grok)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">MLOps</h5>
+            <p>MLflow, Optuna, Docker, Kubernetes, Great Expectations, CI/CD Pipelines, Model Monitoring, Evidently AI</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Cloud Platforms</h5>
+            <p>AWS (SageMaker, S3, Lambda, Glue, Athena), Azure (Azure ML, DevOps, AKS, Databricks)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Data Engineering</h5>
+            <p>Pandas, NumPy, PySpark, ETL, Statistical Analysis, Feature Engineering</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Programming & Tools</h5>
+            <p>Python, SQL, Git, REST APIs, Postman, Jupyter, Docker</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Visualization Tools</h5>
+            <p>Amazon QuickSight, Power BI, Streamlit, Matplotlib, Seaborn</p>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="col-md-6">
-        <h3 class="mb-4">MLOps & Infrastructure</h3>
-        <ul class="list-unstyled">
-            <li class="mb-2">⚙️ MLflow, Docker, Kubernetes</li>
-            <li class="mb-2">⚙️ CI/CD Pipelines, Model Monitoring</li>
-            <li class="mb-2">⚙️ AWS (SageMaker, Lambda, Glue)</li>
-            <li class="mb-2">⚙️ Azure (Azure ML, DevOps, AKS, Databricks)</li>
-        </ul>
-    </div>
-</div>
+  </div>
+</section>
 
 <!-- Education Section -->
 <section id="education" class="py-5">
   <div class="container">
     <h2 class="text-center mb-5">Education</h2>
     <div class="row">
-      <!-- B.Tech -->
+      <!-- M.Tech -->
       <div class="col-md-6 mb-4">
         <div class="card h-100 shadow-sm custom-card">
           <div class="card-body d-flex align-items-center">
             <i class="fas fa-university fa-3x text-primary me-3"></i>
             <div>
-              <h5 class="card-title">Bachelor of Technology (B.Tech) in Computer Science and Engineering</h5>
-              <h6 class="card-subtitle mb-2 text-muted">APJ Abdul Kalam Technological University</h6>
-              <p class="card-text"><small class="text-muted">Graduated: May 2022 | CGPA: 8.5/10</small></p>
+              <h5 class="card-title">Masters in CAD/CAM/CAE (M.Tech)</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Vellore Institute of Technology (VIT University)</h6>
+              <p class="card-text"><small class="text-muted">2018-2020 | Chennai, India | CGPA: 8.61/10</small></p>
+              <p class="card-text"><small class="text-muted">Relevant Coursework: IoT, Product development, Mathematics Methods, and Modeling</small></p>
             </div>
           </div>
         </div>
       </div>
-      <!-- Higher Secondary -->
+      <!-- B.E. -->
       <div class="col-md-6 mb-4">
         <div class="card h-100 shadow-sm custom-card">
           <div class="card-body d-flex align-items-center">
-            <i class="fas fa-school fa-3x text-success me-3"></i>
+            <i class="fas fa-graduation-cap fa-3x text-success me-3"></i>
             <div>
-              <h5 class="card-title">Higher Secondary Education (Computer Science)</h5>
-              <h6 class="card-subtitle mb-2 text-muted">GHSS Ezhome, Kannur</h6>
-              <p class="card-text"><small class="text-muted">Completed: March 2018 | Score: 95%</small></p>
+              <h5 class="card-title">Bachelor of Engineering (B.E) in Mechanical Engineering</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Christian College of Engineering & Technology</h6>
+              <p class="card-text"><small class="text-muted">2011-2015 | Bhilai, India | CGPA: 7.99/10</small></p>
             </div>
           </div>
         </div>
@@ -147,18 +209,17 @@ title: Home
 <!-- Certifications Section -->
 <section id="certifications" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-5">Certifications & Courses</h2>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <h2 class="text-center mb-5">Certifications</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
       <!-- Certification 1 -->
       <div class="col">
         <div class="card h-100 shadow-sm custom-card cert-card">
           <div class="card-body">
             <div class="d-flex align-items-center mb-2">
               <i class="fab fa-aws fa-2x text-warning me-3"></i>
-              <h5 class="card-title mb-0">AWS Certified Solutions Architect – Associate</h5>
+              <h5 class="card-title mb-0">AWS Certified Machine Learning Specialist</h5>
             </div>
-            <p class="card-text">Demonstrated knowledge of how to architect and deploy secure and robust applications on AWS technologies.</p>
-            <p class="card-text"><small class="text-muted">Issued by: Amazon Web Services | Date: Jan 2023</small></p>
+            <p class="card-text">Advanced certification validating expertise in designing, implementing, and maintaining ML solutions using AWS technologies.</p>
           </div>
         </div>
       </div>
@@ -167,28 +228,37 @@ title: Home
         <div class="card h-100 shadow-sm custom-card cert-card">
           <div class="card-body">
             <div class="d-flex align-items-center mb-2">
-              <i class="fas fa-brain fa-2x text-info me-3"></i>
-               <h5 class="card-title mb-0">Deep Learning Specialization</h5>
+              <i class="fab fa-microsoft fa-2x text-info me-3"></i>
+              <h5 class="card-title mb-0">Microsoft Certified: Azure Data Scientist Associate</h5>
             </div>
-            <p class="card-text">Completed a 5-course specialization by deeplearning.ai covering foundations of Deep Learning, CNNs, RNNs, and more.</p>
-             <p class="card-text"><small class="text-muted">Issued by: Coursera | Date: Dec 2022</small></p>
+            <p class="card-text">Validated expertise in using Azure services to implement and run machine learning workloads on Azure.</p>
           </div>
         </div>
       </div>
-       <!-- Certification 3 -->
+      <!-- Certification 3 -->
       <div class="col">
         <div class="card h-100 shadow-sm custom-card cert-card">
           <div class="card-body">
             <div class="d-flex align-items-center mb-2">
-              <i class="fas fa-robot fa-2x text-danger me-3"></i>
-               <h5 class="card-title mb-0">Natural Language Processing Specialization</h5>
+              <i class="fab fa-aws fa-2x text-primary me-3"></i>
+              <h5 class="card-title mb-0">AWS Cloud Practitioner</h5>
             </div>
-            <p class="card-text">Completed a 4-course specialization covering NLP basics, classification, sequence models, and attention mechanisms.</p>
-            <p class="card-text"><small class="text-muted">Issued by: Coursera | Date: Feb 2023</small></p>
+            <p class="card-text">Foundational certification demonstrating understanding of AWS Cloud services, architecture, and pricing.</p>
           </div>
         </div>
       </div>
-      <!-- Add more certifications as needed -->
+      <!-- Certification 4 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm custom-card cert-card">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-2">
+              <i class="fas fa-university fa-2x text-danger me-3"></i>
+              <h5 class="card-title mb-0">Stanford Machine Learning (Coursera)</h5>
+            </div>
+            <p class="card-text">Completed comprehensive course covering fundamental machine learning concepts, algorithms, and implementation techniques.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -198,7 +268,7 @@ title: Home
   <div class="container">
     <h2 class="text-center mb-4">Languages</h2>
     <div class="row text-center">
-      <div class="col-md-4 mb-3">
+      <div class="col-md-3 mb-3">
         <div class="card h-100 shadow-sm custom-card">
           <div class="card-body">
             <i class="fas fa-language fa-3x text-primary mb-3"></i>
@@ -207,7 +277,7 @@ title: Home
           </div>
         </div>
       </div>
-      <div class="col-md-4 mb-3">
+      <div class="col-md-3 mb-3">
         <div class="card h-100 shadow-sm custom-card">
           <div class="card-body">
              <i class="fas fa-language fa-3x text-success mb-3"></i>
@@ -216,12 +286,21 @@ title: Home
           </div>
         </div>
       </div>
-      <div class="col-md-4 mb-3">
+      <div class="col-md-3 mb-3">
         <div class="card h-100 shadow-sm custom-card">
           <div class="card-body">
              <i class="fas fa-language fa-3x text-info mb-3"></i>
             <h5 class="card-title">Hindi</h5>
-            <p class="card-text">Limited Working Proficiency</p>
+            <p class="card-text">Professional Proficiency</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <div class="card h-100 shadow-sm custom-card">
+          <div class="card-body">
+             <i class="fas fa-language fa-3x text-warning mb-3"></i>
+            <h5 class="card-title">Tamil</h5>
+            <p class="card-text">Basic Proficiency</p>
           </div>
         </div>
       </div>
@@ -241,40 +320,55 @@ title: Home
             <div class="d-flex align-items-start mb-3">
               <i class="fas fa-file-alt fa-2x text-primary me-3 mt-1"></i>
               <div>
-                <h5 class="card-title mb-1">Exploring Efficient Architectures for Document Image Analysis</h5>
-                <p class="card-text mb-1"><strong>Conference:</strong> International Conference on Document Analysis and Recognition (ICDAR) 2023</p>
-                <p class="card-text"><small class="text-muted">Co-authors: Dr. Jane Doe, John Smith</small></p>
-                <span class="badge bg-info me-1">Computer Vision</span>
-                <span class="badge bg-secondary">Deep Learning</span>
+                <h5 class="card-title mb-1">Free vibration analysis of an aluminum honeycomb sandwich panel filled with CFRP tubes – Numerical study</h5>
+                <p class="card-text mb-1"><strong>Journal:</strong> Australian Journal of Mechanical engineering (2020)</p>
+                <p class="card-text"><small class="text-muted">Scopus Indexed</small></p>
+                <span class="badge bg-info me-1">Mechanical Engineering</span>
+                <span class="badge bg-secondary">Numerical Analysis</span>
               </div>
             </div>
-            <p class="card-text">This paper introduces a novel lightweight CNN model for classifying document layouts, achieving state-of-the-art performance with reduced computational cost.</p>
-            <a href="#" class="btn btn-outline-primary btn-sm mt-2">Read Paper <i class="fas fa-external-link-alt ms-1"></i></a>
+            <p class="card-text">This paper explores vibration characteristics of composite sandwich panels with carbon fiber reinforced polymer tubes.</p>
           </div>
         </div>
       </div>
 
-      <!-- Talk 1 -->
+      <!-- Publication 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm custom-card publication-card">
+          <div class="card-body">
+            <div class="d-flex align-items-start mb-3">
+              <i class="fas fa-file-alt fa-2x text-primary me-3 mt-1"></i>
+              <div>
+                <h5 class="card-title mb-1">Machine learning classification for tool wear modeling: A comparative study</h5>
+                <p class="card-text mb-1"><strong>Conference:</strong> International Conference on Applications in Computational Engineering & Sciences (IConACES 2020)</p>
+                <p class="card-text"><small class="text-muted">ISBN: 978-93-92811-00-5</small></p>
+                <span class="badge bg-warning me-1">Machine Learning</span>
+                <span class="badge bg-danger">Tool Wear Analysis</span>
+              </div>
+            </div>
+            <p class="card-text">A comparative study of machine learning models for predicting tool wear in manufacturing processes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Talk -->
       <div class="col">
         <div class="card h-100 shadow-sm custom-card publication-card">
           <div class="card-body">
             <div class="d-flex align-items-start mb-3">
               <i class="fas fa-microphone-alt fa-2x text-success me-3 mt-1"></i>
               <div>
-                <h5 class="card-title mb-1">Leveraging Large Language Models for Conversational AI in Banking</h5>
-                <p class="card-text mb-1"><strong>Event:</strong> AI Summit 2024</p>
-                <p class="card-text"><small class="text-muted">Role: Speaker</small></p>
-                <span class="badge bg-warning me-1">NLP</span>
-                <span class="badge bg-danger">Generative AI</span>
-                <span class="badge bg-primary">LLMs</span>
+                <h5 class="card-title mb-1">AWS Healthlake Webinar</h5>
+                <p class="card-text mb-1"><strong>Role:</strong> Technical Speaker</p>
+                <span class="badge bg-primary me-1">AWS</span>
+                <span class="badge bg-info">Healthcare</span>
+                <span class="badge bg-secondary">Data Analytics</span>
               </div>
             </div>
-            <p class="card-text">Presented insights on fine-tuning LLMs for domain-specific tasks like customer support in the financial sector, showcasing improved user satisfaction metrics.</p>
-            <a href="#" class="btn btn-outline-success btn-sm mt-2">View Slides <i class="fas fa-external-link-alt ms-1"></i></a>
+            <p class="card-text">Presented technical insights on using AWS HealthLake for healthcare data analytics and machine learning applications.</p>
           </div>
         </div>
       </div>
-      <!-- Add more publications/talks -->
     </div>
   </div>
 </section>
