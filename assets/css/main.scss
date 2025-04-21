@@ -3,5 +3,74 @@
 
 // Define variables with proper values
 $max-content-width: 800px !default;
+$primary-color: #0056b3 !default;
+$secondary-color: #6c757d !default;
+$success-color: #28a745 !default;
+$info-color: #17a2b8 !default;
 
-// Your custom styles can go here
+/* Custom styling for the portfolio */
+.company-logo {
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -30px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $primary-color;
+  top: 5px;
+}
+
+.card {
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+  }
+}
+
+.publication-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid $primary-color;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(5px);
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+  }
+}
+
+// Improved social icons
+.social-icons {
+  a {
+    color: $secondary-color;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: $primary-color;
+      transform: translateY(-3px);
+    }
+  }
+}
