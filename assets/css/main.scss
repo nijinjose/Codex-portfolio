@@ -8,8 +8,7 @@ $secondary-color: #6c757d !default;
 $success-color: #28a745 !default;
 $info-color: #17a2b8 !default;
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* No imports needed, using theme styles */
 
 /* Custom styling for the portfolio */
 .company-logo {
