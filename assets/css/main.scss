@@ -1,18 +1,20 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// Define variables first
+// Front matter tells Jekyll to process this file
+
+// 1. Import theme variables and Bootstrap (includes its own variables)
+@import "al-folio/variables";
+@import "al-folio/bootstrap";
+
+// 2. Import theme styles
+@import "al-folio/base";
+@import "al-folio/layout";
+@import "al-folio/skeleton"; // Optional, if using skeleton layouts
+@import "al-folio/themes"; // Light/Dark mode definitions
+
+// 3. Define any custom variable overrides *after* importing theme variables
 $max-content-width: 800px !default;
 
-// Theme and custom imports
-@forward 'variables';
-@forward 'themes';
-@forward 'layout';
-@forward 'base';
-@forward 'distill';
-@forward 'projects';
-@forward 'publications';
-@forward 'cv';
-@forward 'profile';
-@forward 'social-icons';
+// 4. Import any custom styles (optional)
+// @import "custom";
