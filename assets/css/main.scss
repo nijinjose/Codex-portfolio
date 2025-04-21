@@ -2,17 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// Import the theme styles
-@import 'variables';
-@import 'themes';
-@import 'layout';
-@import 'base';
-@import 'distill';
-@import 'projects';
-@import 'publications';
-@import 'cv';
-@import 'profile'; 
-@import 'social-icons';
+// Define variables first
+$max-content-width: 800px !default;
 
-// Set any custom variables
-$max-content-width: 800px;
+// Theme and custom imports
+@forward 'variables';
+@forward 'themes';
+@forward 'layout';
+@forward 'base';
+@forward 'distill';
+@forward 'projects';
+@forward 'publications';
+@forward 'cv';
+@forward 'profile';
+@forward 'social-icons';
