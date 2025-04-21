@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Define variables first
+$max-content-width: 800px !default;
+
+// Theme and custom imports
+@forward "variables";
+@forward "themes";
+@forward "layout";
+@forward "base";
+@forward "distill";
+@forward "projects";
+@forward "publications";
+@forward "cv";
+@forward "profile";
+@forward "social-icons";
