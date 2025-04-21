@@ -8,6 +8,9 @@ $secondary-color: #6c757d !default;
 $success-color: #28a745 !default;
 $info-color: #17a2b8 !default;
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
 /* Custom styling for the portfolio */
 .company-logo {
   background-color: #f8f9fa;
@@ -75,15 +78,83 @@ $info-color: #17a2b8 !default;
   }
 }
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
 /* Custom Styles */
 .company-logo-container {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  {
-    /* Add your styles here */
-  }
+}
+
+.company-logo {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  margin-right: 15px;
+  object-fit: contain; /* Keep aspect ratio */
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px; /* Adjust based on icon size/position */
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #e9ecef;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-item::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.timeline-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px; /* Adjust size */
+  height: 40px;
+  background: #007bff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 1.2em;
+  /* Simple icon placeholder using border */
+  border: 3px solid white;
+  box-shadow: 0 0 0 4px #007bff;
+  margin-left: 0px; /* Center the dot on the line */
+}
+
+.timeline-content {
+  margin-left: 60px; /* Space for the timeline img */
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Basic card styles */
+.custom-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.cert-card i,
+.publication-card i {
+  flex-shrink: 0; /* Prevent icons from shrinking */
 }
