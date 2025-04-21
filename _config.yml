@@ -6,9 +6,9 @@ description: >-                      # Your site description
   Data Scientist and Machine learning engineer with 3+ years of experience in developing, deploying,
   and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions.
   Passionate about advancing AI through research and practical applications.
-baseurl: "/Codex portfolio"                       # The subpath of your site, e.g. /blog. If hosted on GitHub Pages at username.github.io, keep this empty.
-url: "https://nijinjose.github.io"                         # The base hostname & protocol for your site, e.g. http://example.com. If hosted on GitHub Pages at username.github.io, set to https://username.github.io
-repository: nijinjose/Codex-portfolio    # Your GitHub repository for GitHub Pages, e.g. username/username.github.io
+baseurl: "/Codex-portfolio"                       # The subpath of your site
+url: "https://nijinjose.github.io"                # The base hostname & protocol for your site, e.g. http://example.com. If hosted on GitHub Pages at username.github.io, set to https://username.github.io
+repository: nijinjose/Codex-portfolio             # Your GitHub repository for GitHub Pages, e.g. username/username.github.io
 
 # ------------ Profile & Social Links -------------
 email: nijinxose@gmail.com
