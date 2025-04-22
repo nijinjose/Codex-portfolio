@@ -426,7 +426,7 @@ I am passionate about advancing AI through research and practical applications a
             <div class="timeline-content js--fadeInRight">
               <div class="timeline-header">
                 <div class="company-logo-container">
-                  <img src="/assets/img/markerstudy_logo.png" alt="Markerstudy Logo" class="company-logo">
+                  <img src="/assets/img/companies/msg.png" alt="Markerstudy Logo" class="company-logo">
                   <h3>Markerstudy Group</h3>
                 </div>
                 <span>Senior Data Science and MLOps Analyst | 2023 - Present</span>
@@ -441,7 +441,7 @@ I am passionate about advancing AI through research and practical applications a
             <div class="timeline-content js--fadeInRight">
               <div class="timeline-header">
                 <div class="company-logo-container">
-                  <img src="/assets/img/capgemini_logo.png" alt="Capgemini Logo" class="company-logo">
+                  <img src="/assets/img/companies/capgemini.png" alt="Capgemini Logo" class="company-logo">
                   <h3>Capgemini Invent</h3>
                 </div>
                 <span>Associate Consultant - Data Scientist and MLOps | 2022 - 2023</span>
