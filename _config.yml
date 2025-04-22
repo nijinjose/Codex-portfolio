@@ -1,11 +1,14 @@
 # Site settings
 # ------------- General Settings -------------
-# title: Nijin Jose                       # Your name or company name
-# name: Nijin Jose
+title: Nijin Jose                       # Your name or company name
+name: Nijin Jose
 description: >-                      # Your site description
-  Data Scientist and Machine learning engineer with 3+ years of experience in developing, deploying,
+  Data Scientist and Machine Learning Engineer with 3+ years of experience in developing, deploying,
   and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions.
   Passionate about advancing AI through research and practical applications.
+  
+  [Email](mailto:nijinxose@gmail.com) | [LinkedIn](https://linkedin.com/in/nijinjose) | 
+  [GitHub](https://github.com/nijinjose) | [Google Scholar](https://scholar.google.com/citations?user=your_google_scholar_id)
 baseurl: "/Codex-portfolio"                       # The subpath of your site
 url: "https://nijinjose.github.io"                # The base hostname & protocol for your site, e.g. http://example.com. If hosted on GitHub Pages at username.github.io, set to https://username.github.io
 repository: nijinjose/Codex-portfolio             # Your GitHub repository for GitHub Pages, e.g. username/username.github.io

@@ -1,8 +1,16 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// Variables
+$max-content-width: 800px;
+$gray-color: #828282;
+
+// Theme styles
+@import "themes";
+@import "variables";
+
 // Define variables with proper values
-$max-content-width: 800px !default;
 $primary-color: #0056b3 !default;
 $secondary-color: #6c757d !default;
 $success-color: #28a745 !default;
@@ -157,3 +165,47 @@ $info-color: #17a2b8 !default;
 .publication-card i {
   flex-shrink: 0; /* Prevent icons from shrinking */
 }
+
+// Custom styles
+.profile-content {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.social-icons {
+  margin: 2rem 0;
+  text-align: center;
+  
+  a {
+    margin: 0 0.5rem;
+    color: $gray-color;
+    font-size: 1.5rem;
+    
+    &:hover {
+      color: darken($gray-color, 25%);
+    }
+  }
+}
+
+.contact-section {
+  text-align: center;
+  margin: 3rem 0;
+  
+  .contact-link {
+    margin: 0 1rem;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Import remaining theme styles
+@import "layout";
+@import "base";
+@import "distill";
+@import "projects";
+@import "publications";
+@import "cv";

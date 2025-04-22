@@ -1,8 +1,21 @@
 ---
 layout: about
 title: About
-permanent: /
+permalink: /
 ---
+
+<div class="social-icons">
+  {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+  {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i></a>{% endif %}
+  {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>{% endif %}
+  {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i></a>{% endif %}
+</div>
+
+# About Me
+
+Welcome! I am a Data Scientist and Machine Learning Engineer with 3+ years of experience in developing, deploying, and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions. 
+
+I am passionate about advancing AI through research and practical applications and seeking to contribute to advanced AI research and deployments at leading AI organizations.
 
 <div class="row justify-content-center">
     <div class="col-md-8 text-center">
