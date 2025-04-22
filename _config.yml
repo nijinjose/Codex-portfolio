@@ -1,7 +1,7 @@
 # Site settings
 # ------------- General Settings -------------
-title: Nijin Jose                       # Your name or company name
-name: Nijin Jose
+# title: Nijin Jose                       # Your name or company name
+# name: Nijin Jose
 description: >-                      # Your site description
   Data Scientist and Machine learning engineer with 3+ years of experience in developing, deploying,
   and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions.
