@@ -8,6 +8,12 @@ permanent: /
     <div class="col-md-8 text-center">
         <h1 class="mt-4">NIJIN JOSE</h1>
         <p class="lead mb-5">Data Scientist & Machine Learning Engineer</p>
+        <p>
+            <a href="mailto:nijinxose@gmail.com">Email</a> | 
+            <a href="https://linkedin.com/in/nijinjose">LinkedIn</a> | 
+            <a href="https://github.com/nijinjose">GitHub</a> | 
+            <a href="https://scholar.google.com/citations?user=your_google_scholar_id">Google Scholar</a>
+        </p>
     </div>
 </div>
 
