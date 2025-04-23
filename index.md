@@ -385,18 +385,22 @@ permalink: /
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="py-5">
+<section id="contact" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center">Get In Touch</h2>
+    <h2 class="text-center mb-4">Get In Touch</h2>
     <p class="text-center text-muted mb-4">Feel free to reach out for collaborations or inquiries.</p>
     <div class="text-center">
-      <a href="mailto:your.email@example.com" class="btn btn-primary me-2"><i class="fas fa-envelope me-2"></i>Email Me</a>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn btn-info me-2"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
-      <a href="https://github.com/yourusername" target="_blank" class="btn btn-dark"><i class="fab fa-github me-2"></i>GitHub</a>
+      <a href="mailto:nijinxose@gmail.com" class="btn btn-primary me-2">
+        <i class="fas fa-envelope me-2"></i>Email Me
+      </a>
+      <a href="https://linkedin.com/in/nijinjose" target="_blank" class="btn btn-info me-2">
+        <i class="fab fa-linkedin me-2"></i>LinkedIn
+      </a>
+      <a href="https://github.com/nijinjose" target="_blank" class="btn btn-dark">
+        <i class="fab fa-github me-2"></i>GitHub
+      </a>
     </div>
   </div>
 </section>
-
-{% include contact.html %}
 
 </div>
