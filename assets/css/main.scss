@@ -9,6 +9,7 @@ $primary-color: #0056b3 !default;
 $secondary-color: #6c757d !default;
 $gray-color: #828282 !default;
 $grey-color: #828282 !default;
+$grey-color-light: $grey-color !default;
 $max-content-width: 800px !default;
 $code-bg-color-light: #f8f8f8 !default;
 $code-bg-color-dark: #23272e !default;
@@ -18,8 +19,8 @@ $purple-color: #6C63FF !default;
 $grey-color-dark: $grey-color !default;
 
 // Theme imports (using @import for compatibility with al-folio theme)
-@import "themes";
 @import "variables";
+@import "themes";
 @import "layout";
 @import "base";
 @import "distill";
