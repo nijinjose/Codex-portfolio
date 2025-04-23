@@ -10,13 +10,13 @@ $secondary-color: #6c757d !default;
 $gray-color: #828282 !default;
 $grey-color: #828282 !default;
 $grey-color-light: $grey-color !default;
+$grey-color-dark: $grey-color !default;
 $max-content-width: 800px !default;
 $code-bg-color-light: #f8f8f8 !default;
 $code-bg-color-dark: #23272e !default;
 $code-text-color-light: #333 !default;
 $code-text-color-dark: #f8f8f8 !default;
 $purple-color: #6C63FF !default;
-$grey-color-dark: $grey-color !default;
 
 // Theme imports (using @import for compatibility with al-folio theme)
 @import "variables";
@@ -26,79 +26,23 @@ $grey-color-dark: $grey-color !default;
 @import "distill";
 
 /* Custom styling for the portfolio */
-.company-logo-container {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
 
-.company-logo {
-  background-color: #f8f9fa;
-  border-radius: 50%;
-  width: clamp(60px, 8vw, 100px);
-  height: clamp(60px, 8vw, 100px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// Profile content
+.profile-content {
+  max-width: $max-content-width;
   margin: 0 auto;
-  transition: transform 0.3s ease;
-  padding: 0.5rem;
-  object-fit: contain;
-  
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
+  padding: 2rem 1rem;
 }
 
-.timeline {
-  position: relative;
-  padding-left: 30px;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.timeline-marker {
-  position: absolute;
-  left: -30px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: $primary-color;
-  top: 5px;
-}
-
-.card {
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-  }
-}
-
-.publication-item {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-left: 4px solid $primary-color;
-  background-color: #f8f9fa;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: translateX(5px);
-    box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
-  }
-}
-
-// Improved social icons
+// Social icons
 .social-icons {
+  margin: 2rem 0;
+  text-align: center;
+  
   a {
-    color: $secondary-color;
+    margin: 0 0.5rem;
+    color: $gray-color;
+    font-size: 1.5rem;
     transition: all 0.3s ease;
     
     &:hover {
@@ -108,109 +52,7 @@ $grey-color-dark: $grey-color !default;
   }
 }
 
-/* Custom Styles */
-.company-logo-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.company-logo {
-  width: 50px; /* Adjust size as needed */
-  height: 50px;
-  margin-right: 15px;
-  object-fit: contain; /* Keep aspect ratio */
-}
-
-.timeline {
-  position: relative;
-  padding: 20px 0;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 20px; /* Adjust based on icon size/position */
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #e9ecef;
-}
-
-.timeline-item {
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.timeline-item::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.timeline-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 40px; /* Adjust size */
-  height: 40px;
-  background: #007bff;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  color: white;
-  font-size: 1.2em;
-  /* Simple icon placeholder using border */
-  border: 3px solid white;
-  box-shadow: 0 0 0 4px #007bff;
-  margin-left: 0px; /* Center the dot on the line */
-}
-
-.timeline-content {
-  margin-left: 60px; /* Space for the timeline img */
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-/* Basic card styles */
-.custom-card {
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.custom-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-}
-
-.cert-card i,
-.publication-card i {
-  flex-shrink: 0; /* Prevent icons from shrinking */
-}
-
-// Custom styles
-.profile-content {
-  max-width: $max-content-width;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-.social-icons {
-  margin: 2rem 0;
-  text-align: center;
-  
-  a {
-    margin: 0 0.5rem;
-    color: $gray-color;
-    font-size: 1.5rem;
-    
-    &:hover {
-      color: darken($gray-color, 25%);
-    }
-  }
-}
-
+// Contact section
 .contact-section {
   text-align: center;
   margin: 3rem 0;
@@ -225,19 +67,119 @@ $grey-color-dark: $grey-color !default;
   }
 }
 
+// Company logos
 .company-logo-container {
   display: flex;
-  align-items: center;
   gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: $white-color;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
   
-  .company-logo {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    border-radius: 8px;
-    background-color: $white-color;
-    padding: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
+}
+
+// Timeline
+.timeline {
+  position: relative;
+  padding: 20px 0 20px 30px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #e9ecef;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -30px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $primary-color;
+  top: 5px;
+}
+
+.timeline-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: $primary-color;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: $white-color;
+  font-size: 1.2em;
+  border: 3px solid $white-color;
+  box-shadow: 0 0 0 4px $primary-color;
+  margin-left: 0;
+}
+
+.timeline-content {
+  margin-left: 60px;
+  background: $white-color;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+// Cards
+.card, .custom-card {
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+  }
+}
+
+// Publication items
+.publication-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid $primary-color;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateX(5px);
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+  }
+}
+
+// Icon containers
+.cert-card i,
+.publication-card i {
+  flex-shrink: 0;
 }
