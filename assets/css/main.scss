@@ -26,15 +26,31 @@ $grey-color-dark: $grey-color !default;
 @import "distill";
 
 /* Custom styling for the portfolio */
+.company-logo-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
 .company-logo {
   background-color: #f8f9fa;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: clamp(60px, 8vw, 100px);
+  height: clamp(60px, 8vw, 100px);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  transition: transform 0.3s ease;
+  padding: 0.5rem;
+  object-fit: contain;
+  
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
 }
 
 .timeline {
