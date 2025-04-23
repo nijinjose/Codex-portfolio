@@ -11,12 +11,6 @@ permalink: /
   {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i></a>{% endif %}
 </div>
 
-# About Me
-
-Welcome! I am a Data Scientist and Machine Learning Engineer with 3+ years of experience in developing, deploying, and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions. 
-
-I am passionate about advancing AI through research and practical applications and seeking to contribute to advanced AI research and deployments at leading AI organizations.
-
 <div class="row justify-content-center">
     <div class="col-md-8 text-center">
         <h1 class="mt-4">NIJIN JOSE</h1>
@@ -37,7 +31,6 @@ I am passionate about advancing AI through research and practical applications a
         </div>
     </div>
 </div>
-
 <hr class="my-5" />
 
 <div class="row align-items-center mb-5">
@@ -404,88 +397,6 @@ I am passionate about advancing AI through research and practical applications a
   </div>
 </section>
 
-<div class="row mt-4">
-    <div class="col-md-12 text-center">
-        <div class="social-icons mt-4">
-            <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://github.com/{{ site.github_username }}" class="mx-2"><i class="fab fa-github fa-2x"></i></a>
-            {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" class="mx-2"><i class="fab fa-twitter fa-2x"></i></a>{% endif %}
-            {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" class="mx-2"><i class="fas fa-graduation-cap fa-2x"></i></a>{% endif %}
-        </div>
-    </div>
+{% include contact.html %}
+
 </div>
-
-<section id="experience" class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-5">Experience</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-img"></div>
-            <div class="timeline-content js--fadeInRight">
-              <div class="timeline-header">
-                <div class="company-logo-container">
-                  <img src="/assets/img/companies/msg.png" alt="Markerstudy Logo" class="company-logo">
-                  <h3>Markerstudy Group</h3>
-                </div>
-                <span>Senior Data Science and MLOps Analyst | 2023 - Present</span>
-              </div>
-              <p>Leading the development of production ML systems for risk prediction in insurance, using gradient boosting models and robust MLOps practices. Delivered <strong>120K GBP annual revenue uplift</strong> through a combination of model improvements and infrastructure modernization.</p>
-              <p>Built containerized ML services on Kubernetes (AKS) with automated CI/CD pipelines that handle testing, validation, and deployment across environments.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-img"></div>
-            <div class="timeline-content js--fadeInRight">
-              <div class="timeline-header">
-                <div class="company-logo-container">
-                  <img src="/assets/img/companies/capgemini.png" alt="Capgemini Logo" class="company-logo">
-                  <h3>Capgemini Invent</h3>
-                </div>
-                <span>Associate Consultant - Data Scientist and MLOps | 2022 - 2023</span>
-              </div>
-              <p>Worked on ML infrastructure and model monitoring for major clients including Michelin. Engineered image processing pipelines and implemented drift detection frameworks that improved data integrity by 50%.</p>
-              <p>Co-developed an enterprise-scale 'Build vs Buy' MLOps decision framework that guided Fortune 500 clients in tech stack selection.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-img"></div>
-            <div class="timeline-content js--fadeInRight">
-              <div class="timeline-header">
-                <div class="company-logo-container">
-                  <img src="/assets/img/ittstar_logo.png" alt="ITTStar Logo" class="company-logo">
-                  <h3>ITTStar Consulting</h3>
-                </div>
-                <span>Associate Data Scientist | 2021 - 2022</span>
-              </div>
-              <p>Built predictive models using AWS HealthLake for insurance applications and developed computer vision solutions with Amazon Rekognition (82% detection accuracy) for retail inventory management.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-img"></div>
-            <div class="timeline-content js--fadeInRight">
-              <div class="timeline-header">
-                <div class="company-logo-container">
-                  <img src="/assets/img/ethna_logo.png" alt="Ethna Attributes Logo" class="company-logo">
-                  <h3>Ethna Attributes Soft Technologies</h3>
-                </div>
-                <span>Engineering Intern | Jun 2021 - Aug 2021</span>
-              </div>
-              <p>Assisted senior engineers in software development tasks, focusing on backend development and database management for web applications.</p>
-              <ul>
-                <li>Contributed to the development of a RESTful API using Python and Flask.</li>
-                <li>Participated in code reviews and debugging sessions.</li>
-                <li>Gained experience with Agile development methodologies.</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
