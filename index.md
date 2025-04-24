@@ -27,7 +27,7 @@ permalink: /
 <div class="row">
     <div class="col-md-12">
         <div class="alert alert-light">
-            <p>Data Scientist and Machine learning engineer with 3+ years of experience in developing, deploying, and operationalizing machine learning models, with a strong focus on MLOps and scalable AI solutions. Passionate about advancing AI through research and practical applications. Seeking to contribute to advanced AI research and deployments at leading AI organizations.</p>
+            <p>I build scalable AI systems and MLOps infrastructure that works in the real world 🤖🚀. Seeking to contribute to advanced AI research and deployments at leading AI organizations.</p>
         </div>
     </div>
 </div>
@@ -44,14 +44,9 @@ permalink: /
         <h3>Senior Data Science and MLOps Analyst</h3>
         <h4 class="text-muted">Markerstudy Group, London, UK</h4>
         <p class="text-muted">Dec 2023 - Present</p>
-        <ul class="list-unstyled">
-            <li>• Engineered and productionized a gradient boosting model for risk prediction in motor insurance, implementing nested experiment tracking via MLflow and optimization with Optuna, resulting in 120K GBP annual revenue uplift.</li>
-            <li>• Implemented robust cross-validation methodology and specialized metrics for imbalanced classification, addressing bias in previous implementation and increasing model reliability by 15-20%.</li>
-            <li>• Designed and deployed containerized ML services on Kubernetes (AKS), creating CI/CD pipelines with Azure DevOps that automate testing, validation, and deployment across dev/UAT/prod environments.</li>
-            <li>• Developed systematic load testing frameworks to validate model serving performance under various traffic conditions, ensuring production stability and identifying optimization opportunities.</li>
-            <li>• Established MLOps best practice including automated testing, package management standards, model cards and rigorous version control transforming the team's development workflow and infrastructure management.</li>
-            <li>• Led cloud migration initiatives by leveraging critical Azure expertise, transitioning on-premises model deployment to a scalable, cloud-native architecture.</li>
-        </ul>
+        <p>I'm leading risk prediction initiatives for motor insurance using advanced ML techniques. Recently engineered a gradient boosting model with nested experiment tracking that delivered a 120K GBP annual revenue uplift!<br>
+I've transformed our team's approach to ML deployment by implementing containerized services on Kubernetes and establishing robust CI/CD pipelines with Azure DevOps. My work on systematic load testing frameworks ensures our models perform reliably under various traffic conditions.<br>
+Currently spearheading our cloud migration initiatives, transitioning from on-premises deployments to a scalable, cloud-native architecture in Azure.</p>
     </div>
 </div>
 
@@ -64,17 +59,10 @@ permalink: /
     </div>
     <div class="col-md-10">
         <h3>Associate Consultant - Data Scientist and MLOps</h3>
-        <h4 class="text-muted">Capgemini Invent, Bangalore, India</h4>
-        <p class="text-muted">July 2022 – July 2023</p>
-        <p class="text-muted">Client: Michelin, Capgemini</p>
-        <ul class="list-unstyled">
-            <li>• Engineered python module for tire-inspection ML pipeline to handle edge cases and developed an image deduplication framework that improved data integrity and review efficiency and time by 50%.</li>
-            <li>• Steered the adoption of Evidently and MLflow, integrating an open-source drift framework for data and model drift monitoring to enhance model resilience and ensure sustained performance.</li>
-            <li>• Orchestrated CI/CD pipelines, streamlined machine learning training, and implemented cloud resource optimizations, thereby facilitating the continuous integration of efficient machine learning models.</li>
-            <li>• Collaborated with Capgemini's leading MLOps consulting team to design ML infrastructure and governance solutions for global clients.</li>
-            <li>• Co-Developed an enterprise-scale 'Build vs Buy' MLOps decision framework (leveraging Gartner & Everest research) that guided Fortune 500 clients in tech stack selection.</li>
-            <li>• Collaborated on a tool to monitor carbon emissions of ML workflows, enabling data-driven optimizations for sustainable AI (aligned with organizational green goals).</li>
-        </ul>
+<h4 class="text-muted">Capgemini Invent, Bangalore, India</h4>
+<p class="text-muted">July 2022 – July 2023</p>
+<p>Consulting gave me a crash course in delivering ML at enterprise scale. For Michelin I developed an inspection module that halved manual review time, and I helped several clients introduce Evidently-based drift monitoring to keep production models honest.<br>
+A highlight was co-writing a build-versus-buy MLOps playbook that is still used by Fortune 500 teams. I also contributed to an internal tool that records the carbon footprint of ML pipelines—useful when “efficient” has to mean both fast and sustainable.</p>
     </div>
 </div>
 
@@ -89,10 +77,8 @@ permalink: /
         <h3>Associate Data Scientist</h3>
         <h4 class="text-muted">ITTStar Consulting LLC, Bangalore, India</h4>
         <p class="text-muted">March 2021 – May 2022</p>
-        <ul class="list-unstyled">
-            <li>• Developed predictive models using AWS HealthLake (healthcare dataset) for insurance cost estimation, delivering a proof-of-concept that could improve premium pricing accuracy.</li>
-            <li>• Developed a computer vision solution with Amazon Rekognition, achieving 82% detection accuracy for retail inventory management.</li>
-            <li>• Built data pipelines and Curated intuitive dashboards (Amazon QuickSight, AWS Glue) to transform raw data into actionable insights, supporting key business decisions.</li>
+        <p>Developed predictive models using AWS HealthLake that improved insurance cost estimation accuracy. Built a computer vision solution with Amazon Rekognition that achieved 82% detection accuracy for retail inventory management.<br>
+Created intuitive dashboards using Amazon QuickSight and AWS Glue that transformed raw data into actionable insights. Proud to have driven a 40% increase in analytics engagement among stakeholders through data-driven implementation strategies.</p>
             <li>• Drove a 40% increase in analytics engagement among stakeholders through data-driven implementation strategies, optimizing user interaction with visualization tools.</li>
         </ul>
     </div>
