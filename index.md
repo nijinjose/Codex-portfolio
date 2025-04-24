@@ -8,7 +8,7 @@ permalink: /
   {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
   {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin"></i></a>{% endif %}
   {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>{% endif %}
-  {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i></a>{% endif %}
+  
 </div>
 
 <div class="row justify-content-center">
@@ -19,7 +19,7 @@ permalink: /
             <a href="mailto:nijinxose@gmail.com">Email</a> | 
             <a href="https://linkedin.com/in/nijinjose">LinkedIn</a> | 
             <a href="https://github.com/nijinjose">GitHub</a> | 
-            <a href="https://scholar.google.com/citations?user=YOUR_ACTUAL_SCHOLAR_ID">Google Scholar</a>
+            <a href="https://scholar.google.com/citations?user=7e7_dq0AAAAJ"><i class="ai ai-google-scholar"></i> Google Scholar</a>
         </p>
     </div>
 </div>
