@@ -78,10 +78,7 @@ A highlight was co-writing a build-versus-buy MLOps playbook that is still used 
         <h4 class="text-muted">ITTStar Consulting LLC, Bangalore, India</h4>
         <p class="text-muted">March 2021 – May 2022</p>
         <p>Developed predictive models using AWS HealthLake that improved insurance cost estimation accuracy. Built a computer vision solution with Amazon Rekognition that achieved 82% detection accuracy for retail inventory management.<br>
-Created intuitive dashboards using Amazon QuickSight and AWS Glue that transformed raw data into actionable insights. Proud to have driven a 40% increase in analytics engagement among stakeholders through data-driven implementation strategies.</p>
-            <li>• Drove a 40% increase in analytics engagement among stakeholders through data-driven implementation strategies, optimizing user interaction with visualization tools.</li>
-        </ul>
-    </div>
+Created intuitive dashboards using Amazon QuickSight and AWS Glue that transformed raw data into actionable insights. Proud to have driven a 40% increase in analytics engagement among stakeholders through data-driven implementation strategies.</p>    </div>
 </div>
 
 <div class="row align-items-center mb-5">
