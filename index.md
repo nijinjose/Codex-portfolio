@@ -27,7 +27,8 @@ permalink: /
 <div class="row">
     <div class="col-md-12">
         <div class="alert alert-light">
-            <p>I build scalable AI systems and MLOps infrastructure that works in the real world 🤖🚀. Seeking to contribute to advanced AI research and deployments at leading AI organizations.</p>
+            <p>I build scalable AI systems and MLOps infrastructure that works in the real world 🤖🚀
+            Seeking to contribute to advanced AI research and deployments at leading AI organizations.</p>
         </div>
     </div>
 </div>
