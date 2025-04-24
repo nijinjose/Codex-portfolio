@@ -37,7 +37,7 @@ permalink: /
     <div class="col-md-2 text-center">
         <div class="company-logo p-3">
             <!-- Markerstudy logo placeholder -->
-            <span class="display-4">⚡</span>
+            <img src="/assets/img/companies/msg.jpg" alt="Markerstudy Logo" class="company-logo" style="max-width: 20px; max-height: 60px; object-fit: contain;" />
         </div>
     </div>
     <div class="col-md-10">
