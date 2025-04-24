@@ -1,8 +1,3 @@
----
-layout: about
-title: About
-permalink: /
----
 
 <div class="social-icons">
   {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
@@ -37,7 +32,7 @@ permalink: /
     <div class="col-md-2 text-center">
         <div class="company-logo p-3">
             <!-- Markerstudy logo placeholder -->
-            <img src="/assets/img/companies/msg.jpg" alt="Markerstudy Logo" class="company-logo" style="max-width: 60px; max-height: 20px; object-fit: contain;" />
+            <img src="/assets/img/companies/msg.jpg" alt="Markerstudy Logo" class="company-logo" style="max-width: 100px; max-height: 30px; object-fit: contain;" />
         </div>
     </div>
     <div class="col-md-10">
