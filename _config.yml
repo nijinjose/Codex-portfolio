@@ -8,17 +8,17 @@ description: >-                      # Your site description
   Passionate about advancing AI through research and practical applications.
   
   [Email](mailto:nijinxose@gmail.com) | [LinkedIn](https://linkedin.com/in/nijinjose) | 
-  [GitHub](https://github.com/nijinjose) | [Google Scholar](https://scholar.google.com/citations?user=your_google_scholar_id)
+  [GitHub](https://github.com/nijinjose) | [Google Scholar](https://scholar.google.com/citations?user=7e7_dq0AAAAJ)
 baseurl: "/Codex-portfolio"                       # The subpath of your site
 url: "https://nijinjose.github.io"                # The base hostname & protocol for your site, e.g. http://example.com. If hosted on GitHub Pages at username.github.io, set to https://username.github.io
 repository: nijinjose/Codex-portfolio             # Your GitHub repository for GitHub Pages, e.g. username/username.github.io
 
 # ------------ Profile & Social Links -------------
 email: nijinxose@gmail.com
-twitter_username: your_twitter_handle
+twitter_username: 
 github_username:  nijinjose
 linkedin_username: nijinjose
-scholar_userid: your_google_scholar_id # Optional: Google Scholar ID
+scholar_userid: 7e7_dq0AAAAJ  # Replace with actual ID
 
 # ------------ Build Settings -------------
 markdown: kramdown

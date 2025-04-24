@@ -19,7 +19,7 @@ permalink: /
             <a href="mailto:nijinxose@gmail.com">Email</a> | 
             <a href="https://linkedin.com/in/nijinjose">LinkedIn</a> | 
             <a href="https://github.com/nijinjose">GitHub</a> | 
-            <a href="https://scholar.google.com/citations?user=your_google_scholar_id">Google Scholar</a>
+            <a href="https://scholar.google.com/citations?user=YOUR_ACTUAL_SCHOLAR_ID">Google Scholar</a>
         </p>
     </div>
 </div>
@@ -402,5 +402,3 @@ permalink: /
     </div>
   </div>
 </section>
-
-</div>
