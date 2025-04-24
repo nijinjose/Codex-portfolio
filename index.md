@@ -1,3 +1,8 @@
+---
+layout: about
+title: About
+permalink: /
+---
 
 <div class="social-icons">
   {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
