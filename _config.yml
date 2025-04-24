@@ -12,6 +12,7 @@ description: >-                      # Your site description
 baseurl: "/Codex-portfolio"                       # The subpath of your site
 url: "https://nijinjose.github.io"                # The base hostname & protocol for your site, e.g. http://example.com. If hosted on GitHub Pages at username.github.io, set to https://username.github.io
 repository: nijinjose/Codex-portfolio             # Your GitHub repository for GitHub Pages, e.g. username/username.github.io
+avatar: /assets/img/portrait.png
 
 # ------------ Profile & Social Links -------------
 email: nijinxose@gmail.com
