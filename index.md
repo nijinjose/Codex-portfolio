@@ -101,6 +101,28 @@ Created intuitive dashboards using Amazon QuickSight and AWS Glue that transform
 
 <hr class="my-5" />
 
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Personal Projects</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      {% for project in site.projects %}
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">{{ project.title }}</h5>
+              <p class="card-text">{{ project.description }}</p>
+              <a href="{{ project.url | relative_url }}" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<hr class="my-5" />
+
 <section id="skills" class="py-5 bg-white">
   <div class="container">
     <h2 class="text-center mb-4">Technical Skills</h2>

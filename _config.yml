@@ -75,12 +75,11 @@ scholar:
   bibliography_template: bib # Template for displaying publications
 
 # Projects settings
-# Define projects in _projects/ or use a data file like _data/projects.yml
-# Example below assumes using markdown files in _projects/
-# projects:
-#   sort_by: date # date, importance, title
-#   sort_order: descending # ascending, descending
-#   # projects_page_title: Projects # Title for the projects page
+# Projects settings
+projects:
+  sort_by: date # date, importance, title
+  sort_order: descending # ascending, descending
+  # projects_page_title: Projects # Title for the projects page
 
 # Blog settings
 # blog_name: Blog # Name for the blog section
@@ -97,3 +96,9 @@ exclude:
   - vendor/ruby/
   - README.md
   - LICENSE.txt
+
+# ----------- Collections ----------- #
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
