@@ -45,9 +45,9 @@ permalink: /
         <h3>Senior Data Science and MLOps Analyst</h3>
         <h4 class="text-muted">Markerstudy Group, London, UK</h4>
         <p class="text-muted">Dec 2023 - Present</p>
-        <p>At Markerstudy Group,I lead risk prediction initiatives where I re-engineered our gradient-boost risk model, delivering a £120K annual revenue uplift and significant  gain in model accuracy. This was achieved by partnering with our actuarial teams to build a regulation-proof validation and risk-management framework, underpinned by a comprehensive Responsible AI framework. To support this, I steered our scalable infrastructure by deploying containerized services on Kubernetes (AKS) and establishing a robust CI/CD pipeline in Azure with built-in load testing and automated compliance scans.<br>
-
-Driving the long-term vision, I authored the team's MLOps maturity assessment, which directly informed my technical recommendations for a full platform redesign. I am now spearheading the team's cloud migration to a scalable, cloud-native Azure architecture while building out the next-generation automated training pipelines and platform for transparent, compliant, and reproducible ML.</p>
+        <p>At Markerstudy Group,I lead risk-prediction work and full-stack MLOps. Re-engineering our gradient-boost model unlocked £120K in annual revenue uplift and a significant lift in pricing accuracy. Partnering with actuarial and pricing teams, I wrapped this work in a regulation-proof validation and Responsible AI framework.<br>
+On the infrastructure side, I built a more scalable and auditable system by deploying containerized services on Kubernetes (AKS) and establishing a hardened Azure DevOps CI/CD pipeline with load tests and license-scanning automation built in.<br>
+After authoring our MLOps maturity assessment to identify critical gaps, I recommended—and now spearhead—a cloud-native Azure platform redesign. I am currently leading the migration of on-premises workloads and rolling out automated retraining pipelines to create a transparent, compliant, and reproducible ML platform at scale.</p>
     </div>
 </div>
 
