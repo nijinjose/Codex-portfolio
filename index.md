@@ -27,8 +27,8 @@ permalink: /
 <div class="row">
     <div class="col-md-12">
         <div class="alert alert-light">
-            <p>I build scalable AI systems and MLOps infrastructure that works in the real world 🤖🚀
-            Seeking to contribute to advanced AI research and deployments at leading AI organizations.</p>
+            <p>I specialize in developing and operationalizing robust machine learning models and scalable AI systems that drive real-world impact. With a proven background in data science, MLOps, and cloud infrastructure, I am passionate about building AI solutions that are not only powerful and efficient but also scalable, compliant, and trustworthy.🤖🚀
+            </p>
         </div>
     </div>
 </div>
@@ -45,9 +45,10 @@ permalink: /
         <h3>Senior Data Science and MLOps Analyst</h3>
         <h4 class="text-muted">Markerstudy Group, London, UK</h4>
         <p class="text-muted">Dec 2023 - Present</p>
-        <p>I'm leading risk prediction initiatives for motor insurance using advanced ML techniques. Recently engineered a gradient boosting model with nested experiment tracking that delivered a 120K GBP annual revenue uplift!<br>
-I've transformed our team's approach to ML deployment by implementing containerized services on Kubernetes and establishing robust CI/CD pipelines with Azure DevOps. My work on systematic load testing frameworks ensures our models perform reliably under various traffic conditions.<br>
-Currently spearheading our cloud migration initiatives, transitioning from on-premises deployments to a scalable, cloud-native architecture in Azure.</p>
+        <p>At Markerstudy Group, my work focuses on improving profitability and regulatory compliance through data science and robust MLOps. I lead risk prediction initiatives where I re-engineered a gradient boosting model that generated a £120K annual revenue uplift and enhanced pricing accuracy by 15-20%. A key part of this success was my direct collaboration with actuarial and pricing teams to establish model validation frameworks, ensuring full compliance with insurance regulations.
+To support these models, I've transformed our team's approach to deployment. I built a more scalable and auditable ML infrastructure by deploying containerized services on Kubernetes (AKS) and establishing robust CI/CD pipelines via Azure DevOps. This involved creating comprehensive quality assurance practices where they were previously absent, including systematic load testing frameworks to ensure our models perform reliably under various traffic conditions. I also architected a compliance and risk management framework for our toolchain and am currently designing tool integration for automated license scanning.
+
+As the internal MLOps subject matter expert, my role is also strategic. I am spearheading our cloud migration to a scalable, cloud-native architecture in Azure, a move guided by an MLOps maturity assessment I conducted to identify and close critical gaps in our model governance . Based on these findings, I established the formal governance framework and led the new platform design. My current focus is on extending this work by building out our automated training capabilities within Azure Pipelines to create a truly transparent and reproducible model development lifecycle.</p>
     </div>
 </div>
 

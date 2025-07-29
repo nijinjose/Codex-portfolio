@@ -2,7 +2,7 @@
 layout: page
 title: AI Banking Assistant
 date: 2024-03-15
-description: A private financial advisor powered by xAI's Grok
+description: A private financial advisor powered by xAI's LLM  Grok
 img: # Optional: Path to a representative image
 importance: 2
 category: personal
